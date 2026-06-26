@@ -534,10 +534,10 @@ export default function App() {
               </div>
             </div>
             <div className="resume-actions">
-              <a href="/RESUME.pdf" download="AADHAVAN RESUMEE.pdf" className="btn-resume-dl">
+              <a href="/UPDATED RESUME.pdf" download="UPDATED RESUME.pdf" className="btn-resume-dl">
                 ⬇ Download PDF
               </a>
-              <a href="https://drive.google.com/file/d/15UJAd2KnYw0kgWajwqcuLI8eHOziHDI4/view?usp=sharing" target="_blank" rel="noreferrer" className="btn-resume-vw">
+              <a href="https://drive.google.com/file/d/1CLb_Mmd23eYP9ShFi-9UU9gH3amt1fqT/" target="_blank" rel="noreferrer" className="btn-resume-vw">
                 👁 View Resume
               </a>
             </div>
