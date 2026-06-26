@@ -192,7 +192,7 @@ export default function App() {
               <em>R.</em>
             </h1>
             <p className="hero-sub">
-              MERN Stack Developer based in Tambaram, Tamil Nadu.<br />
+              MERN Stack Developer based in Chennai, Tamil Nadu.<br />
               I build full-stack web apps — clean APIs, React UIs, and MongoDB schemas from idea to deployment.
             </p>
             <div className="hero-actions">
