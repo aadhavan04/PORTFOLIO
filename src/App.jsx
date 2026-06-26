@@ -253,7 +253,7 @@ export default function App() {
             
             <div className="about-content">
               <p>
-                Hey! I'm <strong>Aadhavan R</strong> — a passionate full-stack developer from <strong>Chennai, Tamil Nadu</strong>. I recently completed my <strong>B.Com (Corporate Secretaryship)</strong> at Kumararani Meena Muthiah College of Arts & Science (2026) and have been deep in the MERN stack ever since.
+                Hey! I'm <strong>Aadhavan R</strong> — a passionate MERN FULL STACK DEVELOPER from <strong>Chennai, Tamil Nadu</strong>. I recently completed my <strong>B.Com (Corporate Secretaryship)</strong> at Kumararani Meena Muthiah College of Arts & Science (2026) and have been deep in the MERN stack ever since.
               </p>
               <p>
                 I specialize in building end-to-end web applications with <strong>MongoDB, Express.js, React.js, and Node.js</strong>. My Capstone project — a full Health & Wellness platform with JWT auth and REST API — captures exactly what I love: putting all the pieces together and seeing something live.
@@ -405,7 +405,10 @@ export default function App() {
                 </div>
                 <div className="proj-title">Health & Wellness Platform</div>
                 <div className="proj-desc">
-                  End-to-end full-stack health platform built as the GUVI MERN Capstone project. Users can register/login with secure JWT authentication, track personal wellness data, and view personalized dashboards. Features a React frontend connected to a Node.js + Express REST API with a MongoDB Atlas database. Complete CRUD operations, protected routes, and responsive design.
+                 Health & Wellness Web Application is a full-stack web application built using the MERN stack 
+                 (MongoDB, Express, React, Node.js), designed to help users track and manage their personal health and wellness routines. 
+                 The platform features secure user authentication, personalized dashboards, and tools for tracking health metrics, goals, and activities, all backed by RESTful APIs and a responsive, user-friendly interface. 
+                 The application is fully deployed end-to-end, showcasing strong full-stack development skills across frontend design, backend architecture, database management, and production deployment.
                 </div>
                 <div className="proj-stack">
                   <span className="stack-chip">React.js</span>
@@ -433,15 +436,20 @@ export default function App() {
             {/* PROJECT 2 */}
             <div className="proj-card">
               <div className="proj-badge-row">
-                <span className="proj-badge badge-fe">Frontend · React</span>
+                <span className="proj-badge badge-fe">Full Stack · MERN</span>
               </div>
               <div className="proj-links-row">
-                <a href="https://noteapp-project1.netlify.app/" target="_blank" rel="noreferrer" className="plink">🌐 Live</a>
-                <a href="https://github.com/aadhavan04/1st-project-note-app" target="_blank" rel="noreferrer" className="plink">⌥ GitHub</a>
+                <a href="https://b2b-billing-software-frontend.onrender.com" target="_blank" rel="noreferrer" className="plink">🌐 Live</a>
+                <a href="https://github.com/aadhavan04/B2B-BILLING-SOFTWARE-FRONTEND" target="_blank" rel="noreferrer" className="plink">⌥ Frontend</a>
+                <a href="https://github.com/aadhavan04/B2B-BILLING-SOFTWARE-BACKEND" target="_blank" rel="noreferrer" className="plink">⎔ Backend</a>
               </div>
-              <div className="proj-title">Notes Web App</div>
+              <div className="proj-title">B2B BILLING SOFTWARE Web App</div>
               <div className="proj-desc">
-                Intuitive note-taking application with real-time editing, organized content management, and a clean minimal UI. Built using React hooks (useState, useEffect) and local state management. Responsive design for seamless use on desktop and mobile.
+                B2B Billing Software is a full-stack web application built using the MERN stack (MongoDB, Express, React, Node.js), 
+                designed to streamline invoicing and inventory management between manufacturers and retailers/suppliers — a true Business-to-Business (B2B) solution. 
+                The platform supports company and customer/supplier management, product inventory tracking, sales and purchase transactions with return handling, expense tracking, and a dashboard with date-range-filtered analytics.
+                 It features secure JWT-based authentication, RESTful APIs for all core modules, and Excel export functionality for reports. 
+                 The application is deployed using Render for both backend and frontend, with MongoDB Atlas as the cloud database, demonstrating end-to-end full-stack development and deployment skills.
               </div>
               <div className="proj-stack">
                 <span className="stack-chip">React.js</span>
@@ -450,20 +458,35 @@ export default function App() {
                 <span className="stack-chip">React Hooks</span>
                 <span className="stack-chip">Netlify</span>
               </div>
+              <div className="capstone-visual">
+                <div className="cv-title">Project Details</div>
+                <div className="cv-stats">
+                  <div className="cv-stat"><span className="cv-stat-label">Type</span><span className="cv-stat-val">Full Stack</span></div>
+                  <div className="cv-stat"><span className="cv-stat-label">Auth</span><span className="cv-stat-val">JWT</span></div>
+                  <div className="cv-stat"><span className="cv-stat-label">DB</span><span className="cv-stat-val">MongoDB</span></div>
+                  <div className="cv-stat"><span className="cv-stat-label">Deployed</span><span className="cv-stat-val">✓ Live</span></div>
+                  <div className="cv-stat"><span className="cv-stat-label">Status</span><span className="cv-stat-val" style={{ color: 'var(--neon)' }}>Active</span></div>
+                </div>
+              </div>
             </div>
 
             {/* PROJECT 3 */}
             <div className="proj-card">
               <div className="proj-badge-row">
-                <span className="proj-badge badge-fe">Frontend · React</span>
+                <span className="proj-badge badge-fe">Full Stack · MERN</span>
               </div>
               <div className="proj-links-row">
-                <a href="https://movie-review-app-2nd-project.netlify.app/" target="_blank" rel="noreferrer" className="plink">🌐 Live</a>
-                <a href="https://github.com/aadhavan04/2nd-project-movie-review-app" target="_blank" rel="noreferrer" className="plink">⌥ GitHub</a>
+                <a href="https://meghacabs-frontend.onrender.com/" target="_blank" rel="noreferrer" className="plink">🌐 Live</a>
+                <a href="https://github.com/aadhavan04/meghacabs-frontend" target="_blank" rel="noreferrer" className="plink">⌥ GitHub</a>
+                <a href="https://github.com/aadhavan04/meghacabs-backend" target="_blank" rel="noreferrer" className="plink">⎔ Backend</a>
               </div>
-              <div className="proj-title">Movie Review App</div>
+              <div className="proj-title">CAB SERVICE WEB APP</div>
               <div className="proj-desc">
-                Component-driven React app for browsing, reviewing, and rating movies. Features a dynamic search bar, genre-based filtering, and a card-based layout with clean hover interactions. Demonstrates solid understanding of React component composition and state.
+              Megha Cabs is a full-stack cab booking web application built using the MERN stack (MongoDB, Express, React, Node.js), 
+              designed to provide a seamless ride-booking experience similar to popular cab aggregator platforms.
+              The platform allows users to search for rides, book cabs, and manage bookings through a clean, responsive interface, backed by RESTful APIs and secure authentication.
+              The application is deployed in production with the frontend hosted on Vercel and the backend on Render, connected to a 
+              custom domain (meghacabs.co.in), and integrated with Google Search Console for SEO indexing — demonstrating real-world deployment, domain configuration, and full-stack development skills.
               </div>
               <div className="proj-stack">
                 <span className="stack-chip">React.js</span>
@@ -471,6 +494,16 @@ export default function App() {
                 <span className="stack-chip">CSS3</span>
                 <span className="stack-chip">Component Design</span>
                 <span className="stack-chip">Netlify</span>
+              </div>
+              <div className="capstone-visual">
+                <div className="cv-title">Project Details</div>
+                <div className="cv-stats">
+                  <div className="cv-stat"><span className="cv-stat-label">Type</span><span className="cv-stat-val">Full Stack</span></div>
+                  <div className="cv-stat"><span className="cv-stat-label">Auth</span><span className="cv-stat-val">JWT</span></div>
+                  <div className="cv-stat"><span className="cv-stat-label">DB</span><span className="cv-stat-val">MongoDB</span></div>
+                  <div className="cv-stat"><span className="cv-stat-label">Deployed</span><span className="cv-stat-val">✓ Live</span></div>
+                  <div className="cv-stat"><span className="cv-stat-label">Status</span><span className="cv-stat-val" style={{ color: 'var(--neon)' }}>Active</span></div>
+                </div>
               </div>
             </div>
 
