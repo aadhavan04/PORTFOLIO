@@ -168,7 +168,7 @@ export default function App() {
 
       {/* ── NAVBAR SECTION ── */}
       <nav id="navbar" className={isScrolled ? 'scrolled' : ''}>
-        <div className="nav-logo"><span>//</span>Aadhavan Portfolio</div>
+        <div className="nav-logo">Aadhavan Portfolio</div>
         <div className="nav-links">
           <a href="#about">About</a>
           <a href="#skills">Skills</a>
